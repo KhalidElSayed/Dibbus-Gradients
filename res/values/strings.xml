@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Dibbus Gradients</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash">Dibbus Gradients</string>
+    <string name="btn_label_android">Android button</string>
+    <string name="button_basisc_buttons">Basic buttons</string>
+    <string name="button_nine_patch_glossy">9 patch glossy</string>
+    <string name="button_nine_patch_matte">9 patch matte</string>
+    <string name="button_gradients_advanced">Many gradients</string>
+    <string name="button_apple">Apple look</string>
+	<string-array name="gradient_arrays">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+    </string-array>
+</resources>

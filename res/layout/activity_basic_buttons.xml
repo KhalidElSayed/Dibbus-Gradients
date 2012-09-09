@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#161616"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="7" >
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_black"
+        android:text="@string/btn_label_android" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_blue"
+        android:text="@string/btn_label_android" />
+    
+     <Button
+        android:id="@+id/button3"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_red"
+        android:text="@string/btn_label_android" />
+    
+     <Button
+        android:id="@+id/button4"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_green"
+        android:text="@string/btn_label_android" />
+    
+     <Button
+        android:id="@+id/button5"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_purple"
+        android:text="@string/btn_label_android" />
+    
+     <Button
+        android:id="@+id/button6"
+        style="@style/ButtonText_Weight"
+        android:background="@drawable/button_yellow"
+        android:text="@string/btn_label_android" />
+     
+     <Button
+         android:id="@+id/button6"
+         style="@style/ButtonText_Weight"
+         android:background="@drawable/test_button"
+         android:text="@string/btn_label_android" />
+    
+</LinearLayout>

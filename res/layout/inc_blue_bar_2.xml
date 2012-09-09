@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:background="@drawable/bar_blue" android:layout_marginBottom="1dp">
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:text="Back" android:layout_alignParentLeft="true" android:layout_height="wrap_content" style="@style/ButtonText_Small" android:background="@drawable/bt_blue_back_bmp"></Button>
+    <TextView android:id="@+id/textView1" android:layout_toRightOf="@+id/button1" android:layout_height="wrap_content" android:layout_alignTop="@+id/button1" android:layout_alignBottom="@+id/button1" android:layout_width="fill_parent" android:layout_toLeftOf="@+id/button3" android:text="Pagetitle" style="@style/PageTitle"></TextView>
+    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:text="Ok" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/ButtonText_Small" android:background="@drawable/bt_blue_bmp"></Button>
+    <Button android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ButtonText_Small"  android:layout_toLeftOf="@+id/button2" android:background="@drawable/bt_blue_bmp" android:text="Main menu"></Button>
+</RelativeLayout>

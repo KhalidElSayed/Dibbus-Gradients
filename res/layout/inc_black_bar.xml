@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:background="@drawable/bar_black" android:layout_marginBottom="1dp">
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText_Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_black"
+        android:text="Back" >
+
+</Button>
+    <TextView android:id="@+id/textView1" android:layout_toRightOf="@+id/button1" android:layout_height="wrap_content" android:layout_alignTop="@+id/button1" android:layout_alignBottom="@+id/button1" android:layout_width="fill_parent" android:layout_toLeftOf="@+id/button3" android:text="Pagetitle" style="@style/PageTitle"></TextView>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/ButtonText_Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_black"
+        android:text="Ok" >
+</Button>
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/ButtonText_Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/button2"
+        android:background="@drawable/button_black"
+        android:text="Menu" >
+</Button>
+</RelativeLayout>

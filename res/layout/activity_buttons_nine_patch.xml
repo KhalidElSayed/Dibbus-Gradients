@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#161616"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_army_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_green_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_black_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_blue_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_blue_pink_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_lightblue_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_pink_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_white_glossy"
+                android:text="@string/btn_label_android" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonText"
+                android:background="@drawable/btn_yellowgreen_glossy"
+                android:text="@string/btn_label_android" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
